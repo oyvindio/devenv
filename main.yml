@@ -2,7 +2,7 @@
 - hosts: all
   connection: local
 
-  vars_files: 
+  vars_files:
     - config.yml
 
   roles:
@@ -14,3 +14,4 @@
 
   tasks:
     - include: tasks/source-code-pro.yml
+      tags: ['fonts']
