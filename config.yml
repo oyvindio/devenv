@@ -3,20 +3,29 @@ homebrew_taps:
   - homebrew/core
   - caskroom/cask
 
-
 homebrew_installed_packages:
   - git
   - name: emacs
     install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
 
 homebrew_cask_apps:
-  - virtualbox
+  - alfred
+  - google-backup-and-sync
   - google-chrome
+  - hammerspoon
   - iterm2
+  - rescuetime
+  - spotify
+  - virtualbox
+  - viscosity
 
-mas_installed_apps: 
+mas_installed_apps:
   - id: 803453959
     name: "Slack"
+  - id: 443987910
+    name: "1Password"
+  - id: 834979136
+    name: "Ethernet Status"
 
 mas_email: ""
 mas_password: ""
