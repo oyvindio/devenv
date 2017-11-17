@@ -1,0 +1,22 @@
+---
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
+
+homebrew_installed_packages:
+  - git
+  - name: emacs
+    install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
+
+homebrew_cask_apps:
+  - virtualbox
+  - google-chrome
+  - iterm2
+
+mas_installed_apps: 
+  - id: 803453959
+    name: "Slack"
+
+mas_email: ""
+mas_password: ""
