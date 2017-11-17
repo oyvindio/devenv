@@ -1,0 +1,17 @@
+---
+- file:
+    path: "~/Library/Fonts"
+    state: directory
+    mode: 0755
+
+
+- name: Install Source Code Pro Fonts
+  copy:
+    src: "{{ item }}"
+    dest: "~/Library/Fonts"
+  with_fileglob:
+    - "files/source-code-pro/*.ttf"
+    
+    
+  
+  
