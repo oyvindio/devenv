@@ -4,9 +4,12 @@ homebrew_taps:
   - caskroom/cask
 
 homebrew_installed_packages:
-  - git
+  - bash
   - name: emacs
     install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
+  - git
+  - rsync
+  - iproute2mac
 
 homebrew_cask_apps:
   - alfred
