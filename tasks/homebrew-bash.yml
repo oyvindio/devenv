@@ -1,5 +1,0 @@
-- name: Add homebrew bash to /etc/shells
-  lineinfile:
-    path: /etc/shells
-    line: '/usr/local/bin/bash'
-  become: true

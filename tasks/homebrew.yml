@@ -1,0 +1,16 @@
+---
+# Post-processing tasks for certain homebrew packages
+
+- name: Add homebrew bash to /etc/shells
+  lineinfile:
+    path: /etc/shells
+    line: '/usr/local/bin/bash'
+  become: true
+
+- name: Chown and suid root docker-machine-driver-xhyve binary
+  file:
+    path: /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+    owner: root
+    group: wheel
+    mode: "u+s"
+  become: true

@@ -9,6 +9,7 @@ homebrew_taps:
 homebrew_installed_packages:
   - bash
   - bash-completion
+  - docker-machine-driver-xhyve
   - name: emacs
     install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
   - git
