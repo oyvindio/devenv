@@ -17,3 +17,30 @@
     key: "NSStatusItem Visible com.apple.menuextra.volume"
     type: boolean
     value: 1
+
+- name: Set time format in menubar
+  osx_defaults:
+    domain: com.apple.menuextra.clock
+    key: DateFormat
+    type: string
+    value: "EEE d MMM  HH:mm"
+
+- name: Show bluetooth icon in menubar
+  osx_defaults:
+    domain: com.apple.systemuiserver
+    key: "NSStatusItem Visible com.apple.menuextra.bluetooth"
+    type: boolean
+    value: 1
+
+- name: Require password to disable screensaver
+  osx_defaults:
+    domain: com.apple.screensaver
+    key: askForPassword
+    value: 1
+
+- name: Immediately require password to disable screensaver
+  osx_defaults:
+    domain: com.apple.screensaver
+    key: askForPasswordDelay
+    type: float
+    value: 0
