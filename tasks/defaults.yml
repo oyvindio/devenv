@@ -36,6 +36,7 @@
   osx_defaults:
     domain: com.apple.screensaver
     key: askForPassword
+    type: int
     value: 1
 
 - name: Immediately require password to disable screensaver
