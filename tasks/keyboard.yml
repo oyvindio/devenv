@@ -2,12 +2,14 @@
 - name: Repeat key presses more rapidly
   osx_defaults:
     key: KeyRepeat
-    value: 1
+    type: int
+    value: 2
 
 - name: Wait shorter time before starting to repeat key presses
   osx_defaults:
     key: InitialKeyRepeat
-    value: 10
+    type: int
+    value: 15
 
 - name: Ensure ~/Library/KeyBindings exists
   file:
