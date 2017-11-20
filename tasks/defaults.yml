@@ -1,14 +1,4 @@
 ---
-- name: Repeat key presses more rapidly
-  osx_defaults:
-    key: KeyRepeat
-    value: 1
-
-- name: Wait shorter time before starting to repeat key presses
-  osx_defaults:
-    key: InitialKeyRepeat
-    value: 10
-
 - name: Play feedback when volume is changed
   osx_defaults:
     key: com.apple.sound.beep.feedback

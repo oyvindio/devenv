@@ -17,3 +17,5 @@
       tags: ['fonts']
     - include_tasks: tasks/defaults.yml
       tags: ['defaults']
+    - include_tasks: tasks/keyboard.yml
+      tags: ['keyboard', 'defaults']

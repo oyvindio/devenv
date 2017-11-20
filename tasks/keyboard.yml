@@ -1,0 +1,26 @@
+---
+- name: Repeat key presses more rapidly
+  osx_defaults:
+    key: KeyRepeat
+    value: 1
+
+- name: Wait shorter time before starting to repeat key presses
+  osx_defaults:
+    key: InitialKeyRepeat
+    value: 10
+
+- name: Ensure ~/Library/KeyBindings exists
+  file:
+    path: "~/Library/KeyBindings"
+    state: directory
+    mode: 0755
+
+- name: Configure default keybindings
+  copy:
+    src: files/keyboard/DefaultKeyBinding.dict
+    dest: "~/Library/KeyBindings/DefaultKeyBinding.dict"
+
+- name: Add custom keyboard layout
+  copy:
+    src: "files/keyboard/U.S. International - Modified.keylayout"
+    dest: "~/Library/Keyboard Layouts/U.S. International - Modified.keylayout"
