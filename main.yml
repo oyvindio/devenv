@@ -13,5 +13,7 @@
       tags: ['mas']
 
   tasks:
-    - include: tasks/source-code-pro.yml
+    - include_tasks: tasks/source-code-pro.yml
       tags: ['fonts']
+    - include_tasks: tasks/defaults.yml
+      tags: ['defaults']
