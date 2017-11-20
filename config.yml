@@ -24,6 +24,7 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - alfred
+  - docker
   - google-backup-and-sync
   - google-cloud-sdk
   - google-chrome
