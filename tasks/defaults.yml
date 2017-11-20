@@ -20,3 +20,10 @@
     key: com.apple.sound.uiaudio.enabled
     type: int
     value: 0
+
+- name: Show sound icon in menubar
+  osx_defaults:
+    domain: com.apple.systemuiserver
+    key: "NSStatusItem Visible com.apple.menuextra.volume"
+    type: boolean
+    value: 1
