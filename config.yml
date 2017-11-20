@@ -1,14 +1,22 @@
 ---
+user: oyvoverg
+
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - caskroom/versions
 
 homebrew_installed_packages:
   - bash
+  - bash-completion
   - name: emacs
     install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
   - git
+  - git-extras
+  - go
+  - hub
   - pyenv
+  - pyenv-virtualenv
   - rsync
   - iproute2mac
   - xz
@@ -16,9 +24,12 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - google-backup-and-sync
+  - google-cloud-sdk
   - google-chrome
+  - google-chrome-canary
   - hammerspoon
   - iterm2
+  - minikube
   - rescuetime
   - spotify
   - virtualbox
