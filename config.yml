@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - pyenv-virtualenv
   - rsync
   - iproute2mac
+  - xhyve
   - xz
 
 homebrew_cask_apps:
