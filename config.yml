@@ -8,8 +8,10 @@ homebrew_installed_packages:
   - name: emacs
     install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
   - git
+  - pyenv
   - rsync
   - iproute2mac
+  - xz
 
 homebrew_cask_apps:
   - alfred
