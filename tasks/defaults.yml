@@ -45,3 +45,10 @@
     key: askForPasswordDelay
     type: float
     value: 0
+
+- name: Disable Spotlight Suggestions
+  osx_defaults:
+    domain: com.apple.screensaver
+    key: LookupSuggestionsDisabled
+    type: boolean
+    value: 1

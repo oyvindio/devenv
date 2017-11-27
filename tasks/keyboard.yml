@@ -11,6 +11,48 @@
     type: int
     value: 15
 
+- name: Press tab to move focus between all controls
+  osx_defaults:
+    key: InitialKeyRepeat
+    type: int
+    value: 2
+
+- name: 'Disable "smart" quotes'
+  osx_defaults:
+    key: NSAutomaticQuoteSubstitutionEnabled
+    type: boolean
+    value: 0
+
+- name: 'Disable "smart" dashes'
+  osx_defaults:
+    key: NSAutomaticDashSubstitutionEnabled
+    type: boolean
+    value: 0
+
+- name: Disable automatic capitalization
+  osx_defaults:
+    key: NSAutomaticCapitalizationEnabled
+    type: boolean
+    value: 0
+
+- name: Disable period on double space
+  osx_defaults:
+    key: NSAutomaticPeriodSubstitutionEnabled
+    type: boolean
+    value: 0
+
+- name: Disable autocorrect
+  osx_defaults:
+    key: NSAutomaticSpellingCorrectionEnabled
+    type: boolean
+    value: 0
+
+- name: Use F1, F2, etc. keys as standard function keys
+  osx_defaults:
+    key: com.apple.keyboard.fnState
+    type: boolean
+    value: 1
+
 - name: Ensure ~/Library/KeyBindings exists
   file:
     path: "~/Library/KeyBindings"
