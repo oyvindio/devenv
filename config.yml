@@ -1,6 +1,4 @@
 ---
-user: oyvoverg
-
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
