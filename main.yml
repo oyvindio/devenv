@@ -21,3 +21,7 @@
       tags: ['homebrew']
     - include_tasks: tasks/keyboard.yml
       tags: ['keyboard', 'defaults']
+    - include_tasks: tasks/dotfiles.yml
+      tags: ['dotfiles']
+    - include_tasks: tasks/emacs.d.yml
+      tags: ['emacs.d']

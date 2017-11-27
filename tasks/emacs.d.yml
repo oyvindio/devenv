@@ -1,0 +1,6 @@
+---
+- name: Clone emacs.d repo
+  git:
+    repo: 'https://github.com/oyvindio/emacs.d.git'
+    dest: '~/.emacs.d'
+    update: no

@@ -1,0 +1,9 @@
+---
+- name: Clone dotfiles repo
+  git:
+    repo: 'https://github.com/oyvindio/dotfiles.git'
+    dest: '~/.dotfiles'
+    update: no
+
+- name: Link dotfiles
+  command: '~/.dotfiles/link.py'
