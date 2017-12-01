@@ -30,6 +30,7 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - alfred
+  - dash
   - docker
   - google-backup-and-sync
   - google-cloud-sdk
