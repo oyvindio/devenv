@@ -48,7 +48,81 @@
 
 - name: Disable Spotlight Suggestions
   osx_defaults:
-    domain: com.apple.screensaver
+    domain: com.apple.lookup.shared
     key: LookupSuggestionsDisabled
     type: boolean
     value: 1
+
+- name: Right click with two fingers
+  osx_defaults:
+    domain: com.apple.AppleMultitouchTrackpad
+    key: TrackpadRightClick
+    type: boolean
+    value: 1
+
+- name: Right click with two fingers (2)
+  osx_defaults:
+    domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
+    key: TrackpadRightClick
+    type: boolean
+    value: 1
+
+- name: Right click with two fingers (3)
+  osx_defaults:
+    domain: com.apple.AppleMultitouchTrackpad
+    key: TrackpadCornerSecondaryClick
+    type: integer
+    value: 0
+
+- name: Right click with two fingers (4)
+  osx_defaults:
+    domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
+    key: TrackpadCornerSecondaryClick
+    type: integer
+    value: 0
+
+- name: Right click with two fingers (5)
+  osx_defaults:
+    key: ContextMenuGesture
+    type: integer
+    value: 1
+
+- name: Right click with right side of MagicMouse
+  osx_defaults:
+    domain: com.apple.AppleMultitouchMouse
+    key: MouseButtonMode
+    type: string
+    value: TwoButton
+
+- name: Right click with right side of MagicMouse (2)
+  osx_defaults:
+    domain: com.apple.driver.AppleBluetoothMultitouch.mouse
+    key: MouseButtonMode
+    type: string
+    value: TwoButton
+
+- name: Set mouse tracking speed
+  osx_defaults:
+    key: com.apple.mouse.scaling
+    type: float
+    value: 1.5
+
+- name: Swipe between pages
+  osx_defaults:
+    key: AppleEnableMouseSwipeNavigateWithScrolls
+    type: boolean
+    value: 1
+
+- name: Autohide dock
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide
+    type: boolean
+    value: 1
+
+- name: Write screenshots to google drive
+  osx_defaults:
+    domain: com.apple.screencapture
+    key: location
+    type: string
+    value: "~/Google Drive/Pictures/Screenshots"

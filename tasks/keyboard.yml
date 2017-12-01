@@ -13,7 +13,7 @@
 
 - name: Press tab to move focus between all controls
   osx_defaults:
-    key: InitialKeyRepeat
+    key: AppleKeyboardUIMode
     type: int
     value: 2
 
