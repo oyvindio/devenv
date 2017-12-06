@@ -126,3 +126,30 @@
     key: location
     type: string
     value: "~/Google Drive/Pictures/Screenshots"
+
+- name: "Don't show hard drives on the desktop"
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowHardDrivesOnDesktop
+    type: boolean
+    value: 0
+
+- name: "Don't show connected servers on the desktop"
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowHardDrivesOnDesktop
+    type: boolean
+    value: 0
+
+- name: Show all file extensions
+  osx_defaults:
+    key: AppleShowAllExtensions
+    type: boolean
+    value: 1
+
+- name: "Don't warn when changing a file extension"
+  osx_defaults:
+    domain: com.apple.finder
+    key: FXEnableExtensionChangeWarning
+    type: boolean
+    value: 0
