@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - iproute2mac
   - jq
   - nmap
+  - patchutils
   - pyenv
   - pyenv-virtualenv
   - shellcheck
