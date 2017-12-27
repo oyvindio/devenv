@@ -10,7 +10,7 @@ homebrew_installed_packages:
   - coreutils
   - docker-machine-driver-xhyve
   - name: emacs
-    install_options: --with-cocoa --with-gnutls --with-imagemagick --with-libsrvg
+    install_options: with-cocoa,with-gnutls,with-imagemagick,with-libsrvg
   - git
   - git-extras
   - go
