@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - docker-machine-driver-xhyve
   - name: emacs
     install_options: with-cocoa,with-gnutls,with-imagemagick,with-libsrvg
+  - fswatch
   - git
   - git-extras
   - go
