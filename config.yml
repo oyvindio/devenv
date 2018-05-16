@@ -8,7 +8,6 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - coreutils
-  - docker-machine-driver-xhyve
   - name: emacs
     install_options: with-cocoa,with-gnutls,with-imagemagick,with-libsrvg
   - fswatch
