@@ -67,4 +67,5 @@
 - name: Add custom keyboard layout
   copy:
     src: "files/keyboard/U.S. International - Modified.keylayout"
-    dest: "~/Library/Keyboard Layouts/U.S. International - Modified.keylayout"
+    dest: "/Library/Keyboard Layouts/U.S. International - Modified.keylayout"
+  become: true
