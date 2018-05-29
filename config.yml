@@ -9,7 +9,7 @@ homebrew_installed_packages:
   - bash-completion
   - coreutils
   - name: emacs
-    install_options: with-cocoa,with-gnutls,with-imagemagick,with-libsrvg
+    install_options: with-cocoa,with-imagemagick@6,with-librsvg
   - fswatch
   - git
   - git-extras
