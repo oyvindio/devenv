@@ -50,8 +50,8 @@ homebrew_cask_apps:
 mas_installed_apps:
   - id: 803453959
     name: "Slack"
-  - id: 443987910
-    name: "1Password"
+  - id: 1333542190
+    name: "1Password 7"
   - id: 834979136
     name: "Ethernet Status"
 
