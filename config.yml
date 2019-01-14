@@ -26,7 +26,6 @@ homebrew_installed_packages:
   - shellcheck
   - rsync
   - watch
-  - xhyve
   - xz
 
 homebrew_cask_apps:
@@ -41,7 +40,6 @@ homebrew_cask_apps:
   - iterm2
   - java
   - minikube
-  - rescuetime
   - spotify
   - virtualbox
   - viscosity
