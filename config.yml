@@ -8,8 +8,6 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - coreutils
-  - name: emacs
-    install_options: with-cocoa,with-imagemagick@6,with-librsvg
   - fswatch
   - git
   - git-extras
@@ -32,6 +30,7 @@ homebrew_cask_apps:
   - alfred
   - dash
   - docker
+  - emacs
   - google-backup-and-sync
   - google-cloud-sdk
   - google-chrome
