@@ -12,7 +12,6 @@ homebrew_installed_packages:
   - git
   - git-extras
   - go
-  - gradle
   - grep
   - hub
   - iproute2mac
@@ -40,7 +39,6 @@ homebrew_cask_apps:
   - java
   - minikube
   - spotify
-  - virtualbox
   - viscosity
   - xscreensaver
 
