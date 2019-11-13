@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - fswatch
   - git
   - git-extras
+  - gpg2
   - go
   - grep
   - hub
@@ -18,6 +19,7 @@ homebrew_installed_packages:
   - jq
   - nmap
   - patchutils
+  - pinentry-mac
   - pyenv
   - pyenv-virtualenv
   - shellcheck
