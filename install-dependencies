@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if type -t pip &> /dev/null; then
+    echo "Installing pip using sudo; you may be prompted for your password"
+    sudo easy_install pip
+fi
+
+echo "Installing python dependencies using sudo; you may be prompted for your password"
+sudo pip install -r requirements.txt
+ansible-galaxy install -r requirements.yml
