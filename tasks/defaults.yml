@@ -125,7 +125,7 @@
     domain: com.apple.screencapture
     key: location
     type: string
-    value: "~/Google Drive/Pictures/Screenshots"
+    value: "~/Pictures/Screenshots"
 
 - name: "Don't show hard drives on the desktop"
   osx_defaults:
