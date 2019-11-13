@@ -30,6 +30,9 @@ homebrew_cask_apps:
   - dash
   - docker
   - emacs
+  - firefox-developer-edition
+  - firefox-nightly
+  - firefox
   - google-backup-and-sync
   - google-cloud-sdk
   - google-chrome
