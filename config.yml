@@ -13,6 +13,7 @@ homebrew_installed_packages:
   - fswatch
   - git
   - git-extras
+  - git-secret
   - gnu-sed
   - gpg2
   - go
@@ -48,6 +49,7 @@ homebrew_cask_apps:
   - google-chrome-canary
   - hammerspoon
   - iterm2
+  - keybase
   - java
   - spotify
   - viscosity
