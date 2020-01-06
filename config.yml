@@ -31,7 +31,9 @@ homebrew_installed_packages:
   - pyenv
   - pyenv-virtualenv
   - shellcheck
+  - rbenv
   - rsync
+  - ruby-build
   - watch
   - xz
 
