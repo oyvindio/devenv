@@ -69,3 +69,15 @@
     src: "files/keyboard/U.S. International - Modified.keylayout"
     dest: "/Library/Keyboard Layouts/U.S. International - Modified.keylayout"
   become: true
+
+# See https://developer.apple.com/library/archive/technotes/tn2450/_index.html
+# Macbook keyboard is VendorID=0x5ac/1452, ProductID=0x279/633
+- name: Swap Control/Capslock on Macbook keyboard
+  command:
+    argv:
+    - '/usr/bin/defaults'
+    - '-currentHost'
+    - 'write'
+    - '-globalDomain'
+    - 'com.apple.keyboard.modifiermapping.1452-633-0'
+    - '<array><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x700000039</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e4</integer></dict></array>'
