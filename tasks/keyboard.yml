@@ -81,3 +81,15 @@
     - '-globalDomain'
     - 'com.apple.keyboard.modifiermapping.1452-633-0'
     - '<array><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x700000039</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e4</integer></dict></array>'
+
+# left and right Command and Option ends up being swapped when remapping
+# Command and Option through Keyboard System Preferences UI
+- name: Swap Control/Capslock and Command/Option keys on CoolerMaster QuickFire Rapid
+  command:
+    argv:
+    - '/usr/bin/defaults'
+    - '-currentHost'
+    - 'write'
+    - '-globalDomain'
+    - 'com.apple.keyboard.modifiermapping.9494-32-0'
+    - '<array><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x700000039</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e4</integer></dict><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x7000000e2</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e3</integer></dict><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x7000000e3</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e2</integer></dict><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x7000000e6</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e7</integer></dict><dict><key>HIDKeyboardModifierMappingSrc</key><integer>0x7000000e7</integer><key>HIDKeyboardModifierMappingDst</key><integer>0x7000000e6</integer></dict></array>'
